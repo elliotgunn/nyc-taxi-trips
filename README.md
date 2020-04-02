@@ -4,7 +4,8 @@ Exploring NYC taxi trips with a deployed machine learning pipeline application f
 Welcome! This repo contains a reproducible ML pipeline, with the steps outlined below. 
 
 **Machine learning**  
-- [x] Feature engineering 
+- [ ] Data analysis/EDA
+- [ ] Feature engineering 
 - [ ] Feature selection 
 - [ ] Train model 
 - [ ] Data validation 
