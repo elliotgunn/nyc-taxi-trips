@@ -1,14 +1,12 @@
 # nyc-taxi-trips
-Exploring NYC taxi trips with a deployed machine learning pipeline application for production. 
-
-Welcome! This repo contains a reproducible ML pipeline, with the steps outlined below. 
+Welcome! This repo contains a reproducible ML pipeline, with the steps outlined below. The goal is to explore a subset of the NYC taxi trip dataset (~30 million rows) with a deployed machine learning pipeline application for production. 
 
 **Machine learning**  
-- [ ] Data analysis/EDA
-- [ ] Feature engineering 
-- [ ] Feature selection 
-- [ ] Train model 
-- [ ] Data validation 
+- [X] Data analysis/EDA
+- [ ] Feature engineering
+- [ ] Feature selection
+- [ ] Train model
+- [ ] Data validation
 - [ ] Versioning & logging
 - [ ] Building a Python package
 
