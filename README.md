@@ -5,7 +5,7 @@ Welcome! This repo contains a reproducible ML pipeline, with the steps outlined 
 - [X] Data analysis/EDA
 - [X] Feature engineering
 - [X] Feature selection
-- [ ] Train model
+- [X] Train model
 - [ ] Data validation
 - [ ] Versioning & logging
 - [ ] Building a Python package
