@@ -3,13 +3,21 @@ Welcome! This repo contains a reproducible ML pipeline, with the steps outlined 
 
 This project aims to emulate key principles of machine learning system architecture: reproducibility of predictions, automated model pipeline, extensibility to add/update models, modular code, scalable to serve predictions to users, and testing. It trains by batch, predicts on the fly, and serves via REST API.
 
-I use a custom machine learning pipeline, as a Python pickle, to transform the data and get predictions.
-
 **Machine learning**  
 - [X] Data analysis/EDA
 - [X] Feature engineering
 - [X] Feature selection
 - [X] Train model
+
+**Scikit-Learn Pipeline**
+I create a Scikit-Learn pipeline with object-oriented programming, as a Python pickle, to transform the data and get predictions.
+- [ ] config.py
+- [ ] preprocessors.py
+- [ ] pipeline.py
+- [ ] train_pipeline.py
+- [ ] predict.py
+
+**Pipeline Application**
 - [ ] Data validation
 - [ ] Versioning & logging
 - [ ] Building a Python package
