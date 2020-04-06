@@ -1,7 +1,9 @@
 # nyc-taxi-trips
 Welcome! This repo contains a reproducible ML pipeline, with the steps outlined below. The goal is to explore a subset of the NYC taxi trip dataset (~30 million rows) with a deployed machine learning pipeline application for production.
 
-This project aims to emulate key principles of machine learning system architecture: reproducibility of predictions, automated model pipeline, extensibility to add/update models, modular code, scalable to serve predictions to users, and testing.
+This project aims to emulate key principles of machine learning system architecture: reproducibility of predictions, automated model pipeline, extensibility to add/update models, modular code, scalable to serve predictions to users, and testing. It trains by batch, predicts on the fly, and serves via REST API.
+
+I use a custom machine learning pipeline, as a Python pickle, to transform the data and get predictions.
 
 **Machine learning**  
 - [X] Data analysis/EDA
