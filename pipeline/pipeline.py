@@ -9,7 +9,7 @@ import preprocessors as pp
 import config
 
 
-price_pipe = Pipeline(
+tip_pipe = Pipeline(
     [
         ('temporal_variable',
             pp.TemporalVariableEstimator(
