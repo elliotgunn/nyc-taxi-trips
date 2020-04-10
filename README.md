@@ -9,13 +9,12 @@ This project aims to emulate key principles of machine learning system architect
 - [X] Feature selection
 - [X] Train model
 
-**Scikit-Learn Pipeline**
-I create a Scikit-Learn pipeline with object-oriented programming, as a Python pickle, to transform the data and get predictions.
-- [ ] config.py
-- [ ] preprocessors.py
-- [X] pipeline.py
-- [X] train_pipeline.py
-- [X] predict.py
+**Pipeline**
+I create a pipeline with object-oriented programming, as a Python pickle, to transform the data and get predictions.
+- [ ] Config
+- [ ] Preprocessing Functions
+- [ ] Train
+- [ ] Score
 
 **Pipeline Application**
 - [ ] Data validation
