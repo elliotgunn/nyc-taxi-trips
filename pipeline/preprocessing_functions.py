@@ -6,8 +6,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 from sklearn.linear_model import Lasso
 
-# import joblib
-
+import joblib
 
 # preprocessing
 # ================================================
@@ -136,14 +135,14 @@ def to_str(df, cols):
     return df
 
 
-def reduce_cardinality(df):
+def reduce_cardinality(df, train_df):
     """
     Need to reduce cardinality of PULocationID & DOLocationID
     """
 
-    # get list of top 10 locations
-    top10PU = df['PULocationID'].value_counts()[:9].index
-    top10DO = df['DOLocationID'].value_counts()[:9].index
+    # get list of top 10 locations from `train`
+    top10PU = train_df['PULocationID'].value_counts()[:9].index
+    top10DO = train_df['DOLocationID'].value_counts()[:9].index
 
     # for locationIDs not in the top 10, replace with OTHER
     df.loc[~df['PULocationID'].isin(top10PU), 'PULocationID'] = 'OTHER'

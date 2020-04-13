@@ -1,9 +1,0 @@
-path_to_dataset : ''
-output_scaler_path : ''
-output_model_path : ''
-
-# preproc/hard code
-
-
-# features
-features : ['']
