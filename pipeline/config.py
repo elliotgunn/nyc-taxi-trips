@@ -1,8 +1,8 @@
-PATH_TO_DATASET = "houseprice.csv"
+PATH_TO_DATASET = 'sample.csv'
 OUTPUT_SCALER_PATH = 'scaler.pkl'
 OUTPUT_MODEL_PATH = 'lasso_regression.pkl'
 
-# preprocessing
+# preprocessing features
 TARGET = 'tip_amount'
 
 NEG_COLS = ['fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount']
