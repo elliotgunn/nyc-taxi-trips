@@ -9,12 +9,12 @@ This project aims to emulate key principles of machine learning system architect
 - [X] Feature selection
 - [X] Train model
 
-**Pipeline**
+**Pipeline**  
 I create a pipeline with object-oriented programming, as a Python pickle, to transform the data and get predictions.
-- [ ] Config
-- [ ] Preprocessing Functions
-- [ ] Train
-- [ ] Score
+- [X] Config
+- [X] Preprocessing functions
+- [X] Train
+- [X] Score
 
 **Pipeline Application**
 - [ ] Data validation
