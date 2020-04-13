@@ -194,3 +194,8 @@ def train_model(df, target, output_path):
     joblib.dump(lin_model, output_path)
 
     return None
+
+
+def predict(df, model):
+    model = joblib.load(model)
+    return model.predict(df)
